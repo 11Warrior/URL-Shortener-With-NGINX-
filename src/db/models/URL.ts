@@ -1,3 +1,4 @@
+
 import mongoose from 'mongoose'
 
 
@@ -9,6 +10,5 @@ const URLSchema = new mongoose.Schema({
     }
 }, { timestamps: true })
 
-const URL = mongoose.model('URL', URLSchema)
+export const URL = mongoose.model('URL', URLSchema)
 
-module.exports = URL;
